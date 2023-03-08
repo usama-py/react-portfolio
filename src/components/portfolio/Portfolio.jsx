@@ -1,8 +1,78 @@
 import React from 'react'
 import './portfolio.css'
+import IMG1 from '../../assets/portfolio1.jpg'
+import IMG2 from '../../assets/portfolio2.jpg'
+import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.jpg'
+import IMG5 from '../../assets/portfolio5.png'
+import IMG6 from '../../assets/portfolio6.jpg'
+
+{/* <a href="https://github.com/usama-py/to-do-listapi/tree/master" className='btn'>To-Do-List API</a>
+<a href="https://github.com/usama-py/latest-news" className='btn'>News API</a>
+<a href="https://github.com/usama-py/password-manager" className='btn'>Password Manager</a>
+<a href="https://github.com/usama-py/sparkpro" className='btn'>Banking App</a> */}
+const data = [
+  {
+    id: 1,
+    image: IMG1,
+    title: 'Portfolio',
+    github:'https://github.com/usama-py/react-portfolio',
+    demo: 'https://dribbble.com/shots/20844163-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: 'To-Do-List API',
+    github:'https://github.com/usama-py/to-do-listapi/tree/master',
+    demo: 'https://dribbble.com/shots/20838335-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Latest News',
+    github:'https://github.com/usama-py/latest-news',
+    demo: 'https://dribbble.com/shots/20790524-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Password Manager',
+    github:'https://github.com/usama-py/password-manager',
+    demo: 'https://dribbble.com/shots/20790460-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Demo Banking App',
+    github:'https://github.com/usama-py/sparkpro',
+    demo: 'https://dribbble.com/shots/20790416-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+  },
+]
+
 const Portfolio = () => {
   return (
-    <section id='portfolio'>Portfolio</section>
+    <section id='portfolio'>
+      <h5>My Recent Work</h5>
+      <h2>Portfolio</h2>
+      <div className='container portfolio__container'>
+        {
+          data.map(({id,image,title,github,demo})  =>{
+            return(
+              <article key={id} className='portfolio__item'>
+                <div className='portfolio__item-image'>
+                  <img src={image} alt={title} />
+                </div>
+                <h3>{title} </h3>
+                <div className='portfolio__item-cta'>
+                  <a href={github} className='btn' target='_blank'>Github</a>
+                  <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
+                </div>
+              </article>
+            )
+          })
+        }
+      </div>
+    </section>
   )
 }
 
