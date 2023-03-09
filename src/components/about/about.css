@@ -35,7 +35,7 @@
 }
 
 .about__card{
-    background: var(--color-bg-varient);
+    background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 2rem;
     padding: 2rem;
@@ -44,7 +44,7 @@
 
 .about__card:hover{
     background: transparent;
-    border-color: var(--color-primary-varient);
+    border-color: var(--color-primary-variant);
     cursor: default;
 }
 
@@ -68,7 +68,7 @@
     color: var(--color-light);
 }
 
-@media screen and(max-width:1024px){
+@media screen and (max-width:1024px){
     
     .about__container{
         grid-template-columns: 1fr;
@@ -86,7 +86,7 @@
 }
 
 /* media queries (small devices) */
-@media screen and(max-width:600px){
+@media screen and (max-width:600px){
     .about__me{
         width: 65%;
         margin: 0 auto 3rem;

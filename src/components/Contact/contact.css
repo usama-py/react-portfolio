@@ -45,16 +45,16 @@ form{
 input,textarea{
     width: 100%;
     margin: 1.5rem;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-varient);
+    border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
 }
 
 /* medium devices */
-@media screen and(max-width:1024px){
+@media screen and (max-width:1024px){
     .container.contact__container{
         grid-template-columns: 1fr;
         gap:2rem;
@@ -62,7 +62,7 @@ input,textarea{
 }
 
 /* media queries (small devices) */
-@media screen and(max-width:600px){
+@media screen and (max-width:600px){
     .container.contact__container{
         width: var(--container-width-sm);
     }
