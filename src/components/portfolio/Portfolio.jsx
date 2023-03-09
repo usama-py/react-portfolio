@@ -1,23 +1,19 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG1 from '../../assets/portfolio1.png'
+import IMG2 from '../../assets/portfolio2.jpeg'
+import IMG3 from '../../assets/portfolio3.png'
+import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+// import IMG6 from '../../assets/portfolio6.jpg'
 
-{/* <a href="https://github.com/usama-py/to-do-listapi/tree/master" className='btn'>To-Do-List API</a>
-<a href="https://github.com/usama-py/latest-news" className='btn'>News API</a>
-<a href="https://github.com/usama-py/password-manager" className='btn'>Password Manager</a>
-<a href="https://github.com/usama-py/sparkpro" className='btn'>Banking App</a> */}
 const data = [
   {
     id: 1,
     image: IMG1,
     title: 'Portfolio',
     github:'https://github.com/usama-py/react-portfolio',
-    demo: 'https://dribbble.com/shots/20844163-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+    demo: '#'
   },
   {
     id: 2,
@@ -72,6 +68,7 @@ const Portfolio = () => {
           })
         }
       </div>
+      <small>P.S. Live Demos Do Not Work Except This Portfolio Link, The others are just as placeholders</small>
     </section>
   )
 }

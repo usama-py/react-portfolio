@@ -14,24 +14,24 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Provide clean and modern UI/UX designs for web and mobile applications.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Proficient in UI/UX design tools such as Adobe XD, Figma, Sketch, and InVision.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Conduct user research and testing to ensure usability and user satisfaction.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Develop brand identity and visual style guides for consistent branding.</p>
             </li>
-            <li>
+            {/* <li>
               <BiCheck className='service__list-icon'/>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
         {/* {end of ui/ux} */}
@@ -42,51 +42,52 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Custom website design and development using HTML, CSS, and JavaScript.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Responsive website design and development with mobile-first approach.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Website redesign and updates to improve user experience and functionality.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Integration with third-party APIs and services.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Web application development with React.</p>
             </li>
           </ul>
         </article>
         {/* {end of development} */}
         <article className='service'>
           <div className='service__head'>
-            <h3>Content Creation</h3>
+            <h3>Python Scripting</h3>
           </div>
           <ul className='service__list'>
+
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Develop custom Python scripts to automate repetitive tasks and increase efficiency.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Build web applications using Flask or Django frameworks.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Create data pipelines and perform data analysis using Python libraries such as Pandas and Numpy.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Provide testing and debugging services for existing Python scripts and applications.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Can develop custom scripts to integrate with APIs and web services using popular Python libraries like Requests and Beautiful Soup..</p>
             </li>
           </ul>
         </article>

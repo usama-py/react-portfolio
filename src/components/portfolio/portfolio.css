@@ -27,6 +27,12 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+small{
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    color: var(--color-primary-variant);
+}
 /* medium devices */
 @media screen and (max-width:1024px){
     .portfolio__container{
