@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/about-me.png'
+import ME from '../../assets/about-me.jpg'
 import {BiAward} from 'react-icons/bi'
 import {FiUser} from 'react-icons/fi'
 import {AiFillFolderOpen} from 'react-icons/ai'
@@ -34,8 +34,8 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum minima fuga perferendis, magnam amet ad pariatur aspernatur eius facilis dolorem, esse voluptatibus velit ipsum explicabo consequatur illo minus voluptates unde.
-          </p>
+          As a computer science student, I am a passionate problem-solver with a love for coding and all things tech. I'm always eager to learn and improve my skills, whether it's by mastering a new programming language or tackling a complex algorithm. As a team player, I enjoy collaborating with my peers and contributing to group projects. With my dedication to the field and impressive abilities, I am confident that I will make a significant impact in the tech industry.
+           </p>
           <a href="#contact" className='btn btn-primary'>let's Talk</a>
         </div>
       </div>

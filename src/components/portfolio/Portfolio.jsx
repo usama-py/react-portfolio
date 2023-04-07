@@ -5,7 +5,7 @@ import IMG2 from '../../assets/portfolio2.jpeg'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
-// import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/portfolio7.jpg'
 
 const data = [
   {
@@ -43,6 +43,13 @@ const data = [
     github:'https://github.com/usama-py/sparkpro',
     demo: 'https://dribbble.com/shots/20790416-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
   },
+  {
+    id: 6,
+    image: IMG6,
+    title: 'ReactExpense Tracker App',
+    github:'https://github.com/usama-py/React-Expenses_Tracker',
+    demo: 'https://usama-py.github.io/React-Expenses_Tracker/'
+  },
 ]
 
 const Portfolio = () => {
@@ -68,7 +75,7 @@ const Portfolio = () => {
           })
         }
       </div>
-      <small>P.S. Live Demos Do Not Work Except This Portfolio Link, The others are just as placeholders</small>
+      <small>P.S. All live Demos Do Not Work, most of them are just as placeholders</small>
     </section>
   )
 }
